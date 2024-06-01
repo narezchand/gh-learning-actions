@@ -1,0 +1,10 @@
+name: nb1-workflow
+on: workflow_dispatch
+jobs:
+  first-nb1-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "Hello World!"
+      - name: print Good Bye
+        run: echo "Thats for 1st demo!!!"
